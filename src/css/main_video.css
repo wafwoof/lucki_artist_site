@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&display=swap');
+
+.gif-container {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    /* center all elements */
+    margin: 0 auto;
+
+}
+
+.gif-container img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay-container {
+    position: relative;
+}
+
+.overlay-content{
+    position: absolute;
+    max-width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-content h1 {
+    font-size: 4em;
+    text-align: center;
+    color: lightgrey;
+    font-family: monospace;
+    /* more distance between letters */
+    letter-spacing: 0.4em;
+    rotate: 4deg;
+}
+
+.overlay-content h2 {
+    color: lightgrey;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+
+    border: 2px solid lightgrey;
+
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.overlay-container a {
+    color: lightgrey;
+    text-decoration: none;
+}

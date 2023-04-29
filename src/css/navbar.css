@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* touch each side of the screen */
+    width: 100%;
+    background-color: black;
+}
+
+.navbar h1 {
+    color: lightgray;
+
+    margin: 5px 0px 5px 0px;
+
+    font-size: 2.5em;
+    font-family: 'Frank Ruhl Libre', serif;
+    /* more distance between letters */
+    letter-spacing: 0.1em;
+    text-align: center;
+
+    /* text-shadow: 2px 2px 2px black; */
+    text-shadow: 1px 1px 1px lightgrey;
+}
+
+.navbar img {
+    /* scale down image */
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar-shop-link {
+    /* do not interact with other elements */
+    position: absolute;
+    margin-left: 275px;
+}
+
+.navbar-shop-link a h2{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+
+    font-size: 1.9em;
+
+    /* for some reason this looks right */
+    margin-top: 26%;
+}
+
+.navbar-shop-link a h2:hover {
+    opacity: 0.5;
+}
+
+.navbar img:hover {
+    opacity: 0.5;
+}
